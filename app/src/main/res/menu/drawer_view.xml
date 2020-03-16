@@ -19,9 +19,11 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
+                    android:id="@+id/msubUm"
                     android:icon="@drawable/one"
                     android:title="Sub item 1" />
                 <item
+                    android:id="@+id/msubDois"
                     android:icon="@drawable/two"
                     android:title="Sub item 2" />
             </group>

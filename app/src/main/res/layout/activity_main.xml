@@ -27,7 +27,10 @@
         android:id="@+id/nvView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start" />
+        android:layout_gravity="start"
+        android:background="#FFF"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_view" />
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
